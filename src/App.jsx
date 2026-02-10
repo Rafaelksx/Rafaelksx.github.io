@@ -11,7 +11,7 @@ const App = () => {
         <div className="space-x-6 text-slate-400">
           <a href="#proyectos" className="hover:text-white transition">Proyectos</a>
           <a href="#skills" className="hover:text-white transition">Habilidades</a>
-          <a href="https://github.com/TU_USUARIO" target="_blank" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">GitHub</a>
+          <a href="https://github.com/Rafaelksx" target="_blank" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">GitHub</a>
         </div>
       </nav>
 
@@ -23,7 +23,7 @@ const App = () => {
           </h2>
           <p className="text-slate-400 text-lg mb-8 max-w-2xl">
             Especializado en el desarrollo de soluciones Full Stack con 
-            <span className="text-white font-semibold"> MERN, Laravel y Angular</span>. 
+            <span className="text-white font-semibold"> MERN y Laravel</span>. 
             Enfocado en crear sistemas escalables y optimización de procesos desde Venezuela para el mundo.
           </p>
           <div className="flex gap-4 justify-center md:justify-start">
@@ -80,7 +80,7 @@ const App = () => {
 
       {/* --- FOOTER --- */}
       <footer className="text-center py-10 border-t border-slate-800 text-slate-500 text-sm">
-        <p>© 2026 - Rafael | Ingeniería en Informática</p>
+        <p>© 2026 - Rafael Rodriguez | Ingeniería en Informática</p>
       </footer>
     </div>
   );
