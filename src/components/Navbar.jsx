@@ -16,7 +16,7 @@ const Navbar = ({ githubUrl, linkedinUrl }) => {
   }, []);
 
   const navLinks = [
-    { name: 'Inicio', href: '#' },
+    { name: 'Inicio', href: '#inicio' },
     { name: 'Proyectos', href: '#proyectos' },
     { name: 'Habilidades', href: '#skills' }
   ];
@@ -32,7 +32,7 @@ const Navbar = ({ githubUrl, linkedinUrl }) => {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold bg-gradient-to-r from-blue-400 via-indigo-400 to-emerald-400 bg-clip-text text-transparent hover:scale-105 transition-transform">
+        <a href="#inicio" className="text-2xl font-bold bg-gradient-to-r from-blue-400 via-indigo-400 to-emerald-400 bg-clip-text text-transparent hover:scale-105 transition-transform">
           &lt;Rafael.dev /&gt;
         </a>
 
